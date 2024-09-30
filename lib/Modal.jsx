@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Modal.css';
 
 // Déclaration du composant Modal, qui prend en paramètre trois props : isOpen, onClose, et children
