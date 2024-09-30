@@ -1,11 +1,16 @@
 {
-  "name": "my-react-modal",
-  "private": true,
-  "version": "0.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "name": "react-modal-sabrinamouginot",
+  "author": "Sabrina Mouginot",
+  "description": "simple react library",
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "version": "0.1.2",
+  "main": "src/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "type": "module",
   "scripts": {
@@ -19,7 +24,7 @@
     "vite": "^5.4.8"
   },
   "peerDependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
