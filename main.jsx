@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Modal from './lib/Modal';
+import Modal from './src/Modal';
 
 // Définition du composant principal App
 const App = () => {
