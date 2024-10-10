@@ -23,6 +23,7 @@ Here's a basic example showing how to use the Modal component:
 ```jsx
 import React, { useState } from 'react';
 import { Modal } from 'react-modal-sabrinamouginot';
+import 'react-modal-sabrinamouginot/dist/style.css';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
