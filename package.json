@@ -7,10 +7,9 @@
     "modal"
   ],
   "version": "0.1.6",
-  "main": "src/index.js",
+  "main": "dist/react-modal-sabrinamouginot",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "type": "module",
   "scripts": {

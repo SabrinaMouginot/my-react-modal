@@ -12,10 +12,7 @@ export default defineConfig({
     lib: {
       // Indique le point d'entrée du code source de la bibliothèque
       entry: './src/index.js', 
-      // Nom global de la bibliothèque quand elle est utilisée via un script ou une CDN
-      name: 'index', 
-      // Fonction pour nommer les fichiers générés pour chaque format de build (ex: es, umd)
-      fileName: (format) => `react-modal-sabrinamouginot.${format}.js`
+      formats : ["es", "cjs"]
     },
     // Options spécifiques à Rollup (le bundler utilisé par Vite pour la construction)
     rollupOptions: {
